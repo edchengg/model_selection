@@ -28,4 +28,4 @@ Target language: xmf TEST ACC: 0.37500
 ![ScreenShot](table3-lowresource.png)
 
 ## Checkpoint
-``tb3-lowresource.ckpt''
+``tb3-lowresource.ckpt``
