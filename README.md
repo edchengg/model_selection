@@ -20,3 +20,10 @@ Please cite if you use the above resources for your research
   year={2021}
 }
 ```
+## TODO
+- [x] POS-Multilingual
+- [x] NER-Low-resource
+- [] NER
+- [] QA
+- [] RE
+- [] ARL
