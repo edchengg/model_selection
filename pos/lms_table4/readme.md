@@ -35,4 +35,4 @@ Target lang: sv, TEST ACC: 0.92153
 ![ScreenShot](table4.png)
 
 ## Checkpoint
-ft-tb4.ckpt
+``tb4-ft.ckpt''
