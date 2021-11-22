@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>7996</sentences><tokens>140418</tokens><words>140418</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="16840" /><!-- biti, ,, ., v, in, se, na, da, z, on, za, ki, ta, pa, tudi -->
+  <forms unique="31515" /><!-- ,, ., je, v, in, se, na, da, so, za, ki, z, pa, bi, tudi -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="16">
+    <tag name="ADJ">15027</tag><!-- drug, velik, nov, prvi, slovenski, dober, sam, evropski, star, zadnji -->
+    <tag name="ADP">13192</tag><!-- v, na, z, za, po, iz, o, pri, od, do -->
+    <tag name="ADV">6939</tag><!-- lahko, tako, zelo, kako, bolj, vedno, potem, kar, zdaj, dobro -->
+    <tag name="AUX">7147</tag><!-- biti -->
+    <tag name="CONJ">5701</tag><!-- in, pa, ali, saj, ter, vendar, zato, namreč, a, toda -->
+    <tag name="DET">3310</tag><!-- ta, svoj, ves, njegov, nekaj, naš, njen, več, njihov, vsak -->
+    <tag name="INTJ">16</tag><!-- ah, oho, ha, haha, hm, hvalabogu, ih, jaggghh, jebemti, jezesna -->
+    <tag name="NOUN">30139</tag><!-- leto, dan, čas, človek, delo, mesto, svet, otrok, življenje, del -->
+    <tag name="NUM">1927</tag><!-- en, dva, trije, štirje, pet, deset, eden, tisoč, šest, sto -->
+    <tag name="PART">4090</tag><!-- tudi, ne, še, že, le, naj, prav, samo, seveda, sicer -->
+    <tag name="PRON">6951</tag><!-- se, on, ta, jaz, kateri, ves, ti, kar, kaj, tisti -->
+    <tag name="PROPN">4682</tag><!-- Slovenija, Ljubljana, Maribor, EU, Evropa, Slovenec, Nemčija, Jugoslavija, Amerika, Janez -->
+    <tag name="PUNCT">18555</tag><!-- ,, ., ", -, (, ), ?, », :, « -->
+    <tag name="SCONJ">5093</tag><!-- da, ki, kot, ko, če, ker, kjer, čeprav, kakor, naj -->
+    <tag name="VERB">17310</tag><!-- biti, imeti, morati, iti, začeti, moči, priti, vedeti, dobiti, povedati -->
+    <tag name="X">339</tag><!-- dr., t., d., sv., P., i., of, oz., the, M. -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="61">
+    <feat name="Animacy" value="Anim" upos="NOUN,PROPN">380</feat><!-- otroka, predsednika, človeka, duha, moža, prijatelja, boga, bolnika, nasprotnika, sina -->
+    <feat name="Animacy" value="Inan" upos="NOUN,PROPN">1840</feat><!-- dan, čas, način, primer, denar, del, sistem, svet, teden, konec -->
+    <feat name="Aspect" value="Imp" upos="VERB">5986</feat><!-- ima, imajo, mora, imel, zdi, moral, moramo, imela, imeli, morali -->
+    <feat name="Aspect" value="Perf" upos="VERB">6463</feat><!-- povedal, dejal, zgodilo, začeli, uspelo, začela, postal, rekel, prišel, začel -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">17231</feat><!-- za, na, v, ga, jih, jo, to, vse, svoje, kaj -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2706</feat><!-- si, mu, mi, k, ji, proti, nam, vam, jim, kljub -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">15609</feat><!-- iz, od, do, zaradi, tega, leta, let, brez, z, poleg -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6020</feat><!-- z, s, med, pred, pod, za, tem, nad, njim, leti -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">13239</feat><!-- v, na, po, o, pri, ob, tem, katerem, letih, Sloveniji -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">16718</feat><!-- to, ta, vsi, kar, kdo, mogoče, vse, sam, kaj, predsednik -->
+    <feat name="Definite" value="Def" upos="ADJ">1130</feat><!-- pravi, novi, državni, slovenski, drugi, veliki, glavni, največji, edini, prejšnji -->
+    <feat name="Definite" value="Ind" upos="ADJ">938</feat><!-- sam, velik, nov, drug, pomemben, prepričan, dober, podoben, pripravljen, sprejet -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">922</feat><!-- več, bolj, manj, prej, večkrat, bolje, pozneje, boljše, raje, večji -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET">20364</feat><!-- lahko, tako, nekaj, zelo, kako, veliko, vedno, potem, kar, zdaj -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV,DET">436</feat><!-- najbolj, najprej, največ, največji, najmanj, najbolje, najboljši, najpogosteje, največja, največkrat -->
+    <feat name="Foreign" value="Foreign" upos="X">110</feat><!-- of, the, de, bin, La, Les, Party, TO, TRAVEL, WRITING -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">24094</feat><!-- bila, jo, jih, ji, svojo, te, strani, svoje, Slovenije, ta -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">29240</feat><!-- ga, bil, jih, mu, bili, ta, dan, tem, vsi, kdo -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">11397</feat><!-- to, bilo, tem, leta, kaj, kar, tega, vse, let, mogoče -->
+    <feat name="Gender[psor]" value="Fem" upos="DET,PRON">139</feat><!-- njeno, njen, njene, njena, njeni, njenih, njenim, njenega, njenem, njenemu -->
+    <feat name="Gender[psor]" value="Masc" upos="DET,PRON">250</feat><!-- njegov, njegovo, njegove, njegova, njegovem, njegovi, njegovih, njegovega, njegovim, njegovimi -->
+    <feat name="Gender[psor]" value="Neut" upos="DET">1</feat><!-- njegov -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">887</feat><!-- bi, b -->
+    <feat name="Mood" value="Imp" upos="VERB">274</feat><!-- bodite, dodajte, Ugotovimo, dajte, pazite, denimo, poglejmo, pojdite, poskusite, povej -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">14222</feat><!-- je, so, bo, ni, sem, bodo, smo, sta, ima, niso -->
+    <feat name="Negative" value="Neg" upos="AUX,VERB">821</feat><!-- ni, niso, nisem, nima, nismo, nimajo, niste, nista, nimam, noče -->
+    <feat name="Negative" value="Pos" upos="AUX,VERB">8541</feat><!-- je, so, bo, sem, bodo, smo, sta, ima, bomo, boste -->
+    <feat name="Number" value="Dual" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1427</feat><!-- sta, sva, dveh, dva, oba, ju, dve, bila, obeh, bosta -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">22964</feat><!-- so, jih, bodo, smo, niso, bili, let, nas, vse, nam -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">55743</feat><!-- je, bo, ni, to, sem, ga, bil, tem, bilo, bila -->
+    <feat name="Number[psor]" value="Dual" upos="DET">32</feat><!-- njun, njuna, njuno, njuni, najin, najinih, vajino, Najine, najina, najinega -->
+    <feat name="Number[psor]" value="Plur" upos="DET,PRON">320</feat><!-- naše, naših, njihove, naš, naša, njihovo, njihov, njihova, njihovih, naši -->
+    <feat name="Number[psor]" value="Sing" upos="DET,PRON">475</feat><!-- njegov, njegovo, njegove, njegova, njeno, njen, njegovem, njegovi, njene, njegovih -->
+    <feat name="NumForm" value="Digit" upos="NUM">1166</feat><!-- 10, 15, 2000, 1., 50, 30, 3, 20, 20., 6 -->
+    <feat name="NumForm" value="Roman" upos="NUM">21</feat><!-- I., II, II., VI, I, III, IV., IX., V, V. -->
+    <feat name="NumForm" value="Word" upos="NUM">740</feat><!-- eno, tri, dveh, dva, ena, eden, tisoč, štiri, štirih, dve -->
+    <feat name="NumType" value="Card" upos="NUM">1665</feat><!-- eno, tri, dveh, dva, ena, eden, tisoč, štiri, štirih, dve -->
+    <feat name="NumType" value="Gen" upos="ADJ">4</feat><!-- dvojnega, dvojnim, dvojno, trojnim -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">567</feat><!-- prvi, prva, prvo, 1., prve, prvem, prvih, prvega, 20., 18. -->
+    <feat name="NumType" value="Sets" upos="NUM">5</feat><!-- dvoje, tisočerih, troje -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2649</feat><!-- sem, smo, mi, nas, nam, bomo, me, nisem, bom, moramo -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">958</feat><!-- boste, ste, vam, vas, si, imate, ti, niste, vi, te -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">14034</feat><!-- je, so, bo, ni, ga, jih, bodo, jo, sta, mu -->
+    <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">1689</feat><!-- svoje, svojo, svoj, njegov, svojega, svoji, njegovo, svojih, njegove, njegova -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1669</feat><!-- to, tem, ta, tega, te, teh, temu, tej, tisti, ti -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">834</feat><!-- nekaj, več, veliko, nekatere, dovolj, nekateri, nekdo, nekaterih, manj, neki -->
+    <feat name="PronType" value="Int" upos="DET,PRON">663</feat><!-- kaj, katerem, kdo, katerih, kateri, katero, katere, katerega, kakšno, katerimi -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">145</feat><!-- nič, nihče, nobenega, nobene, nikogar, ničesar, noben, nobenih, nobena, nikakršne -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">6044</feat><!-- se, ga, jih, si, jo, mu, mi, svoje, ji, nas -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">196</feat><!-- kar, čemer, česar, čimer, kdor, kakršen, kakršnokoli, karkoli, kakršna, kakršnih -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">710</feat><!-- vse, vseh, vsi, vsak, vsem, ves, vsako, oba, obeh, vsega -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON">2899</feat><!-- se, si, svoje, svojo, svoj, svojega, svoji, svojih, svojim, sebi -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">1048</feat><!-- bo, bodo, bomo, boste, bom, bosta, bova, bojo, boš -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">13174</feat><!-- je, so, ni, sem, smo, sta, ima, niso, gre, imajo -->
+    <feat name="Variant" value="Bound" upos="PRON">118</feat><!-- zanj, zame, zase, nanjo, zanjo, nanj, vanjo, vanj, zanje, name -->
+    <feat name="Variant" value="Short" upos="PRON">3799</feat><!-- se, ga, jih, si, jo, mu, mi, ji, me, jim -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">15383</feat><!-- je, so, bi, bo, ni, sem, bodo, smo, sta, ima -->
+    <feat name="VerbForm" value="Inf" upos="VERB">1391</feat><!-- biti, videti, imeti, reči, narediti, vedeti, slišati, dobiti, najti, povedati -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">9594</feat><!-- bil, bila, bilo, bili, imel, bile, moral, povedal, imela, imeli -->
+    <feat name="VerbForm" value="Sup" upos="VERB">18</feat><!-- delat, spat, gledat, iskat, krpat, mižat, odpotovat, organizirat, osvobodit, pogledat -->
+    <feat name="VerbForm" value="Trans" upos="ADV">18</feat><!-- rekoč, sodeč, Molče, hote, nehote, neupoštevaje, nevede, sklicujoč, stoje, upoštevaje -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="32">
+    <dep name="acl">2388</dep>
+    <dep name="advcl">1305</dep>
+    <dep name="advmod">10970</dep>
+    <dep name="amod">11766</dep>
+    <dep name="appos">391</dep>
+    <dep name="aux">7153</dep>
+    <dep name="case">13476</dep>
+    <dep name="cc">4631</dep>
+    <dep name="cc:preconj">73</dep>
+    <dep name="ccomp">1209</dep>
+    <dep name="compound">114</dep>
+    <dep name="conj">5267</dep>
+    <dep name="cop">2820</dep>
+    <dep name="csubj">559</dep>
+    <dep name="dep">8</dep>
+    <dep name="det">3310</dep>
+    <dep name="discourse">67</dep>
+    <dep name="dobj">7024</dep>
+    <dep name="expl">2298</dep>
+    <dep name="foreign">57</dep>
+    <dep name="iobj">603</dep>
+    <dep name="mark">4691</dep>
+    <dep name="mwe">452</dep>
+    <dep name="name">697</dep>
+    <dep name="neg">671</dep>
+    <dep name="nmod">20221</dep>
+    <dep name="nsubj">7230</dep>
+    <dep name="nummod">1586</dep>
+    <dep name="parataxis">1631</dep>
+    <dep name="punct">18553</dep>
+    <dep name="root">7996</dep>
+    <dep name="xcomp">1201</dep>
+  </deps>
+</treebank>
