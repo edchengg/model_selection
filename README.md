@@ -1,4 +1,4 @@
-# Model Selection for Cross-lingual Transfer (EMNLP 2021)
+# Model Selection for Cross-lingual Transfer
 
 This repository contains the code and resources for the following [paper](https://aclanthology.org/2021.emnlp-main.459.pdf).
 
