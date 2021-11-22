@@ -23,7 +23,6 @@ Please cite if you use the above resources for your research
 ## TODO
 - [x] POS-Multilingual
 - [x] NER-Low-resource
-- [] NER
-- [] QA
-- [] RE
-- [] ARL
+- [ ] QA
+- [ ] RE
+- [ ] ARL
