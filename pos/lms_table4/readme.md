@@ -15,6 +15,8 @@ python main_train_lms.py --exp_name tb4-ft
 ## Evaluation
 ``
 python evaluation.py --exp_name tb4-ft
+``
+
 =============================================
 Loading ckpt and reproduce results for Table 4...
 Loading ckpt: tb4-ft.ckpt...
@@ -29,8 +31,9 @@ Target lang: ro, TEST ACC: 0.88787
 Target lang: sk, TEST ACC: 0.88617
 Target lang: sl, TEST ACC: 0.86752
 Target lang: sv, TEST ACC: 0.92153
+
 =============================================
-``
+
 
 ## Checkpoint
 ft-tb4.ckpt
