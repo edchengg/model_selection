@@ -32,7 +32,7 @@ Target lang: sk, TEST ACC: 0.88617
 Target lang: sl, TEST ACC: 0.86752
 Target lang: sv, TEST ACC: 0.92153
 ```
-![alt text](https://github.com/edchengg/model_selection/tree/main/pos/lms_table4/table4.png "Logo Title Text 1")
+![ScreenShot](https://github.com/edchengg/model_selection/tree/main/pos/lms_table4/table4.png)
 
 ## Checkpoint
 ft-tb4.ckpt
