@@ -21,7 +21,7 @@ Please cite if you use the above resources for your research
 }
 ```
 ## TODO
-- [x] POS-Multilingual
+- [x] POS-Multilingual/POS
 - [x] NER-Low-resource
 - [x] QA
 - [ ] RE
