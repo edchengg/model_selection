@@ -31,7 +31,7 @@ python run_train.py
 
 ## Evaluation
 ``
-python evaluation.py
+python run_evaluation.py
 ``
 
 ```
