@@ -145,7 +145,7 @@ class CoNLLProcessor(object):
         if target_task == 'conll':
             task_file = ""
         else:
-            task_file = "pos_feature_all.pkl"
+            task_file = "pos18.pkl"
 
         with open(task_file, 'rb') as f:
             data = pickle.load(f)

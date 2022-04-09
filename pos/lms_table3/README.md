@@ -41,6 +41,7 @@ sk--83.7--83.6--84.8
 sl--84.5--83.5--85.5
 ====================
 sv--91.4--91.8--91.8
+
 ```
 
 ## Training
@@ -56,9 +57,9 @@ python run_evaluation.py
 ```
 Loading ckpt and reproduce results for Table 3 POS...
 Target lang: ar, TEST ACC: 51.6
-Target lang: de, TEST ACC: 89.8
-Target lang: es, TEST ACC: 85.6
-Target lang: nl, TEST ACC: 75.9
+Target lang: de, TEST ACC: 89.7
+Target lang: es, TEST ACC: 85.5
+Target lang: nl, TEST ACC: 75.8
 Target lang: zh, TEST ACC: 68.3
 Target lang: bg, TEST ACC: 87.9
 Target lang: da, TEST ACC: 88.9

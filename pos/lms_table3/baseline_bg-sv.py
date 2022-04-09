@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 
 
-    filename = "pos_feature_all.pkl"
+    filename = "pos18.pkl"
 
 
     print('Reading file: ', filename)
