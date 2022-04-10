@@ -52,7 +52,7 @@ if __name__ == '__main__':
     target2pivot = {'bg': 'es',
              'da': 'nl',
                 'hu': 'de', 'it': 'es', 'fa': 'es', 'pt': 'es', 'ro': 'es','sk': 'es','sl': 'es','sv': 'nl'}
-    print(test_splits)
+
     for target_language in target:
         label_f1 = args.label_f1.replace('**', target_language)
 
