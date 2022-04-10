@@ -73,7 +73,6 @@ if __name__ == '__main__':
             pivot_dev_f1.append(data[idx]['dev_{}'.format(pivot_language)])
 
         en_select_idx = np.argmax(en_dev_f1)
-        print(en_select_idx)
         en_select_res = target_test_f1[int(en_select_idx)]
         target_select_idx = np.argmax(target_dev_f1)
         target_select_res = target_test_f1[int(target_select_idx)]
