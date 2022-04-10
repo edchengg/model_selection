@@ -2,7 +2,6 @@ import argparse
 import random
 import numpy as np
 import torch
-from model import *
 import pickle
 
 # take args
@@ -82,11 +81,7 @@ if __name__ == '__main__':
         print(test_splits[pivot_select_idx])
         sort_target_test_f1 = list(np.sort(target_test_f1)[::-1])
 
-        print('======{}======'.format(target_language))
-        print('En-dev: {}----{}'.format(round(en_select_res*100, 1), sort_target_test_f1.index(en_select_res)))
-        print('Pivot-dev: {}----{}'.format(round(pivot_select_res*100,1), sort_target_test_f1.index(pivot_select_res)))
-        print('Target-dev: {}----{}'.format(round(target_select_res*100,1), sort_target_test_f1.index(target_select_res)))
-        print('Target-test: {}'.format(round(np.max(target_test_f1)*100,1)))
+        print('{}--{}--{}'.format(round(en_select_res*100, 1),round(pivot_select_res*100,1))
 
 
 

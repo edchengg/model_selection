@@ -32,7 +32,6 @@ if __name__ == '__main__':
 
     filename = "ner_wikiann.pkl"
 
-    print('Reading file: ', filename)
 
     with open(filename, 'rb') as f:
         data = pickle.load(f)
@@ -56,7 +55,7 @@ if __name__ == '__main__':
                     'tk': 'tr',
                     'qu': 'es',
                     'xmf': 'ka'}
-    print(test_splits)
+
     for target_language in ['cdo', 'gn', 'ilo', 'mhr', 'mi', 'tk', 'qu', 'xmf']:
         label_f1 = args.label_f1.replace('**', target_language)
 
@@ -84,11 +83,7 @@ if __name__ == '__main__':
         print(test_splits[pivot_select_idx])
         sort_target_test_f1 = list(np.sort(target_test_f1)[::-1])
 
-        print('======{}======'.format(target_language))
-        print('En-dev: {}----{}'.format(round(en_select_res*100, 1), sort_target_test_f1.index(en_select_res)))
-        print('Pivot-dev: {}----{}'.format(round(pivot_select_res*100,1), sort_target_test_f1.index(pivot_select_res)))
-        print('Target-dev: {}----{}'.format(round(target_select_res*100,1), sort_target_test_f1.index(target_select_res)))
-        print('Target-test: {}'.format(round(np.max(target_test_f1)*100,1)))
+        print('{}--{}--{}'.format(target_language, round(en_select_res*100, 1), round(pivot_select_res*100,1))
 
 
 

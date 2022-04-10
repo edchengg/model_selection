@@ -72,7 +72,7 @@ if __name__ == '__main__':
     #print('Evaluating on dev set...\n')
     best_model_f1, ndcg, kendall_score, rank = evaluate(model, test_dataloader)
 
-    print('Target lang: %s, TEST ACC: %.5f' % (args.target_language, best_model_f1))
+    print('Target lang: %s, TEST ACC: %.1f' % (args.target_language, best_model_f1*100))
     # print('NDCG FINAL: %.5f' % ndcg)
     # print('KENDALL TEST: %.5f' % kendall_score)
     # print('TEST Rank: ', rank)

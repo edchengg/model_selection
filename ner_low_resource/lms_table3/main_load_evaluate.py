@@ -57,4 +57,4 @@ if __name__ == '__main__':
     output_model_file = save_ckpt
     model.load_state_dict(torch.load(output_model_file, map_location=device))
     best_model_f1, ndcg, kendall_score, rank = evaluate(model, test_dataloader)
-    print('Target language: %s TEST ACC: %.5f' % (args.target_language, best_model_f1))
+    print('Target language: %s TEST ACC: %.2f' % (args.target_language, best_model_f1*100))
