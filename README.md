@@ -1,6 +1,6 @@
 # Model Selection for Cross-lingual Transfer
 
-This repository contains the code and resources for the following [paper](https://aclanthology.org/2021.emnlp-main.459.pdf).
+This repository contains the code and resources for the [paper](https://aclanthology.org/2021.emnlp-main.459.pdf). 
 
 ## Requirements
 1. py3.7
@@ -9,7 +9,7 @@ This repository contains the code and resources for the following [paper](https:
 ```
 requirements.txt
 ```
-## Run
+## How to run?
 ```
 bash bash.sh
 ```

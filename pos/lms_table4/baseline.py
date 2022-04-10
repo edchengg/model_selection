@@ -68,7 +68,6 @@ if __name__ == '__main__':
             pivot_dev_f1.append(data[idx]['{}_dev'.format(target2pivot[target_language])])
 
         en_select_idx = np.argmax(en_dev_f1)
-        print(en_select_idx, test_splits[en_select_idx])
 
         en_select_res = target_test_f1[int(en_select_idx)]
         target_select_idx = np.argmax(target_dev_f1)
@@ -78,7 +77,6 @@ if __name__ == '__main__':
         pivot_select_idx = np.argmax(pivot_dev_f1)
         pivot_select_res = target_test_f1[int(pivot_select_idx)]
 
-        print(test_splits[pivot_select_idx])
         sort_target_test_f1 = list(np.sort(target_test_f1)[::-1])
 
         print('{}--{}--{}'.format(target_language, round(en_select_res*100, 1),round(pivot_select_res*100,1)))
