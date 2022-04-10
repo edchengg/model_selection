@@ -9,6 +9,10 @@ This repository contains the code and resources for the following [paper](https:
 ```
 requirements.txt
 ```
+## Run
+```
+bash bash.sh
+```
 
 ## Citation
 Please cite if you use the above resources for your research
@@ -20,9 +24,3 @@ Please cite if you use the above resources for your research
   year={2021}
 }
 ```
-## TODO
-- [x] POS-Multilingual/POS
-- [x] NER-Low-resource
-- [x] QA
-- [ ] RE
-- [ ] ARL
