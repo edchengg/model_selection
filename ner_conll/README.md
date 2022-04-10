@@ -1,4 +1,4 @@
-# POS - Table 3
+# NER CoNLL - Table 3
 
 This repo reproduces the results in Table 3 - NER CoNLL
 
@@ -25,4 +25,4 @@ Target lang: nl, TEST F1: 78.85
 Target lang: zh, TEST F1: 55.05
 
 ```
-![ScreenShot](table3-ner.png)
+![ScreenShot](table3_ner.png)
