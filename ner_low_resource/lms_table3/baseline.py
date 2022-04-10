@@ -2,7 +2,6 @@ import argparse
 import random
 import numpy as np
 import torch
-from model import *
 import pickle
 
 # take args

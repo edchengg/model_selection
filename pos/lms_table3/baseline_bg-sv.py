@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
         oracle_idx = np.argmax(total_target_dev_f1)
         p_idx = np.argmax(total_pivot_dev_f1)
-        print('====================')
+        
         print('{}--{}--{}'.format(lang, round(total_target_test_f1[idx], 1),
                                           round(total_target_test_f1[p_idx], 1),
                                           ))  #
