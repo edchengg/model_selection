@@ -12,6 +12,8 @@ python baseline.py
 python run_evaluation.py
 #conll
 cd ..
+cd ..
+cd ner_conll
 python baseline.py
 python run_evaluation.py
 #low-resource ner

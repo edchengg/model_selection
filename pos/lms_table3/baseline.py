@@ -38,7 +38,7 @@ if __name__ == '__main__':
     filename = "pos18.pkl"
 
 
-    print('Reading file: ', filename)
+
 
     with open(filename, 'rb') as f:
         data = pickle.load(f)

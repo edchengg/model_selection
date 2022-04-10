@@ -39,7 +39,7 @@ if __name__ == '__main__':
     filename = "pos18.pkl"
 
 
-    print('Reading file: ', filename)
+
 
     with open(filename, 'rb') as f:
         data = pickle.load(f)
@@ -55,14 +55,14 @@ if __name__ == '__main__':
     dev_splits = splits[int(0.5 * length):int(0.75 * length)]
     test_splits = splits[int(0.75 * length):]
 
-    print('====================')
+
     lang2pivot = {'bg': 'es',
                   'da': 'nl',
                   'hu': 'de', 'it': 'es', 'fa': 'es', 'pt': 'es', 'ro': 'es', 'sk': 'es', 'sl': 'es', 'sv': 'nl',
                   'ar': 'de', 'de': 'ar', 'es': 'ar', 'zh': 'de', 'hi': 'es', 'vi': 'ar',
                   'nl': 'de'
                   }
-    print('lang --- en-dev --- pivot-dev')
+
     for lang in ['bg', 'da', 'fa', 'hu', 'it', 'pt', 'ro', 'sk', 'sl', 'sv']:
         total_en_dev_f1 = []
         total_target_dev_f1 = []

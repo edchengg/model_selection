@@ -32,7 +32,6 @@ if __name__ == '__main__':
 
     filename = "qa_feature_all.pkl"
 
-    print('Reading file: ', filename)
 
     with open(filename, 'rb') as f:
         data = pickle.load(f)
@@ -53,9 +52,9 @@ if __name__ == '__main__':
              'da': 'nl',
                 'hu': 'de', 'it': 'es', 'fa': 'es', 'pt': 'es', 'ro': 'es','sk': 'es','sl': 'es','sv': 'nl'}
 
-    print('====================')
+    
     lang2pivot = {'ar': 'de', 'de': 'ar', 'es': 'ar', 'zh': 'de', 'hi': 'es', 'vi': 'ar'}
-    print('lang --- en-dev --- pivot-dev ')
+
     for lang in ['ar', 'de', 'es', 'zh', 'hi', 'vi']:
         total_en_dev_f1 = []
         total_target_dev_f1 = []

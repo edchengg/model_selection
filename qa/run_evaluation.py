@@ -10,7 +10,7 @@ print('Loading ckpt and reproduce results for Table 3 QA...')
 
 for lang in ['ar', 'de', 'es', 'zh', 'vi,hi']:
     if os.path.exists('{}.ckpt'.format('qa-{}-lms'.format(lang))):
-        print('ckpt exists')
+        pass
     else:
         print('ckpt not exists')
         NotImplementedError()

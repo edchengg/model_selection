@@ -11,7 +11,7 @@ args = parser.parse_args()
 print('Loading ckpt and reproduce results for Table 3 - Low resource...')
 
 if os.path.exists('{}.ckpt'.format(args.exp_name)):
-    print('ckpt exists')
+    pass
 else:
     print('ckpt not exists')
     NotImplementedError()
