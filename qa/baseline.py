@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
     print('====================')
     lang2pivot = {'ar': 'de', 'de': 'ar', 'es': 'ar', 'zh': 'de', 'hi': 'es', 'vi': 'ar'}
-    print('lang --- en-dev --- pivot-dev -- 100-target --- all-target')
+    print('lang --- en-dev --- pivot-dev ')
     for lang in ['ar', 'de', 'es', 'zh', 'hi', 'vi']:
         total_en_dev_f1 = []
         total_target_dev_f1 = []
@@ -84,4 +84,4 @@ if __name__ == '__main__':
         dev_idx = np.argmax(total_target_dev_100_f1)
         p_idx = np.argmax(total_pivot_dev_f1)
         print('====================')
-        print('{}--{}--{}--{}--{}'.format(lang, round(total_target_test_f1[idx],1), round(total_target_test_f1[p_idx], 1), round(total_target_test_f1[dev_idx], 1),round(total_target_test_f1[oracle_idx], 1)))  #
+        print('{}--{}--{}'.format(lang, round(total_target_test_f1[idx],1), round(total_target_test_f1[p_idx], 1)))  #

@@ -62,7 +62,7 @@ if __name__ == '__main__':
                   'ar': 'de', 'de': 'ar', 'es': 'ar', 'zh': 'de', 'hi': 'es', 'vi': 'ar',
                   'nl': 'de'
                   }
-    print('lang --- en-dev --- pivot-dev --- all-target')
+    print('lang --- en-dev --- pivot-dev')
     for lang in ['bg', 'da', 'fa', 'hu', 'it', 'pt', 'ro', 'sk', 'sl', 'sv']:
         total_en_dev_f1 = []
         total_target_dev_f1 = []
@@ -89,6 +89,6 @@ if __name__ == '__main__':
         oracle_idx = np.argmax(total_target_dev_f1)
         p_idx = np.argmax(total_pivot_dev_f1)
         print('====================')
-        print('{}--{}--{}--{}'.format(lang, round(total_target_test_f1[idx], 1),
+        print('{}--{}--{}'.format(lang, round(total_target_test_f1[idx], 1),
                                           round(total_target_test_f1[p_idx], 1),
-                                          round(total_target_test_f1[oracle_idx], 1)))  #
+                                          ))  #
