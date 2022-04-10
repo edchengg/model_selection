@@ -4,14 +4,14 @@
 #pos
 echo "===POS - Table 3==="
 cd pos/lms_table3
-# python baseline.py
-# python baseline_bg-sv.py
-# python run_evaluation.py
+python baseline.py
+python baseline_bg-sv.py
+python run_evaluation.py
 #qa
 echo "===QA - Table 3==="
 cd ../../qa
-# python baseline.py
-# python run_evaluation.py
+python baseline.py
+python run_evaluation.py
 #conll
 echo "===NER CoNLL - Table 3==="
 cd ..
