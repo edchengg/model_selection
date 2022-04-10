@@ -18,12 +18,6 @@ python run_evaluation.py
 ``
 
 ```
-Loading ckpt and reproduce results for Table 3 QA...
-ckpt exists
-ckpt exists
-ckpt exists
-ckpt exists
-ckpt exists
 Target lang: ar, TEST ACC: 49.3
 Target lang: de, TEST ACC: 55.9
 Target lang: es, TEST ACC: 65.0
