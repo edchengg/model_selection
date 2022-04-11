@@ -22,4 +22,3 @@ Loading ckpt and reproduce results for Table 3 RE...
 Target lang:ar, F1:36.90
 Target lang:zh, F1:71.20
 ```
-![ScreenShot](table3-re.png)
