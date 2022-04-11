@@ -12,6 +12,17 @@ echo "===QA - Table 3==="
 cd ../../qa
 python baseline.py
 python run_evaluation.py
+#re
+echo "===RE - Table 3==="
+cd ../re
+python baseline.py
+python run_evaluation.py
+cd..
+#arl
+echo "===ARL - Table 3==="
+cd arl
+python baseline.py
+python run_evaluation.py
 #conll
 echo "===NER CoNLL - Table 3==="
 cd ..
